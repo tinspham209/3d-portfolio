@@ -47,8 +47,10 @@ const About = () => {
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
 			>
-				A Software Engineering, interested in designing websites, especially
-				things related to Front-end stacks and UIX Designer.
+				I'm a Software Engineer with an interest in designing websites,
+				especially things related to Front-end stacks and UIX Designer. I am
+				always eager to take on new challenges and opportunities that push me
+				out of my comfort zone and help me grow as a developer
 			</motion.p>
 
 			<div className="mt-20 flex flex-wrap gap-10">
