@@ -4,18 +4,17 @@ import {
 	creator,
 	css,
 	datahouse,
-	docker,
 	figma,
+	freelancer,
 	git,
 	html,
 	javascript,
 	jobit,
 	mobile,
-	mongodb,
+	mui,
 	nodejs,
 	reactjs,
 	redux,
-	freelancer,
 	tailwind,
 	threejs,
 	tripguide,
@@ -83,16 +82,16 @@ const technologies = [
 		icon: redux,
 	},
 	{
+		name: "Material UI",
+		icon: mui,
+	},
+	{
 		name: "Tailwind CSS",
 		icon: tailwind,
 	},
 	{
 		name: "Node JS",
 		icon: nodejs,
-	},
-	{
-		name: "MongoDB",
-		icon: mongodb,
 	},
 	{
 		name: "Three JS",
@@ -105,10 +104,6 @@ const technologies = [
 	{
 		name: "figma",
 		icon: figma,
-	},
-	{
-		name: "docker",
-		icon: docker,
 	},
 ];
 
