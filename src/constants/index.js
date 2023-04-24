@@ -1,6 +1,5 @@
 import {
 	backend,
-	carrent,
 	creator,
 	css,
 	datahouse,
@@ -9,7 +8,6 @@ import {
 	git,
 	html,
 	javascript,
-	jobit,
 	mobile,
 	mui,
 	nodejs,
@@ -17,9 +15,16 @@ import {
 	redux,
 	tailwind,
 	threejs,
-	tripguide,
 	typescript,
 	web,
+	cafesang,
+	covidtracker,
+	inutdesign,
+	kingstonedanang,
+	noorcafe,
+	noorkombucha,
+	taptaponme,
+	portfolio2021,
 } from "../assets";
 
 export const navLinks = [
@@ -170,67 +175,236 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "INUT Design",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"An E-commerce website for customizing laptops, mobile, camera skin",
 		tags: [
 			{
-				name: "react",
+				name: "NextJS",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "Sanity",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "Firebase",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Framer motion",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "green-text-gradient",
+			},
+			{
+				name: "ThreeJS",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: inutdesign,
+		source_code_link: "https://inutdesign.com/",
 	},
 	{
-		name: "Job IT",
+		name: "TapTapOn.Me",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"My small start-up project, which provides the Smart Business Card by NFC technology",
 		tags: [
 			{
-				name: "react",
+				name: "React",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "Firebase",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "Material UI",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "Redux",
+				color: "blue-text-gradient",
+			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: taptaponme,
+		source_code_link: "https://taptapon.me/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Portfolio",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"My pervious portfolio website to show my information and practice 3D web animation",
 		tags: [
 			{
-				name: "nextjs",
+				name: "Next",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "ThreeJS",
 				color: "green-text-gradient",
 			},
 			{
-				name: "css",
+				name: "Framer motion",
 				color: "pink-text-gradient",
 			},
+			{
+				name: "React Three Fiber",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Spline",
+				color: "green-text-gradient",
+			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: portfolio2021,
+		source_code_link: "https://tinspham.dev/",
+	},
+	{
+		name: "Kingstone Danang",
+		description:
+			"A website for displaying Granite & Marble stone, Furniture - Exterior products",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Sanity",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "green-text-gradient",
+			},
+		],
+		image: kingstonedanang,
+		source_code_link: "https://kingstonedanang.com/",
+	},
+	{
+		name: "NOOR Coffee Website",
+		description:
+			"A website for the coffee shop includes: Blog, View Products, View Review",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Sanity",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "green-text-gradient",
+			},
+		],
+		image: noorcafe,
+		source_code_link: "https://noor-cf.web.app/",
+	},
+	{
+		name: "NOOR Kombucha Website",
+		description:
+			"A website for the coffee shop includes: Blog, View Products, View Review",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Sanity",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "green-text-gradient",
+			},
+		],
+		image: noorkombucha,
+		source_code_link: "https://noor-kombucha.web.app/",
+	},
+	{
+		name: "Cafesang",
+		description:
+			"A community of like-minded individuals passionate about information technology, coming together to exchange ideas, insights, and expertise",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Firebase",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Youtube API",
+				color: "green-text-gradient",
+			},
+		],
+		image: cafesang,
+		source_code_link: "https://cafe-sang.web.app/",
+	},
+	{
+		name: "Covid Tracker",
+		description:
+			"A website for Visualization infected, recovered, deaths in card, table, chart, maps on worldwide of COVID-19",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Redux",
+				color: "green-text-gradient",
+			},
+			{
+				name: "Material UI",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "React-ChartJS",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Leaflet",
+				color: "green-text-gradient",
+			},
+		],
+		image: covidtracker,
+		source_code_link: "https://covid-tracker-dksgsd.surge.sh/",
 	},
 ];
 
